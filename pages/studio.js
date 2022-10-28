@@ -5,10 +5,7 @@ import * as Awards from "../styles/pages/studio/awards/index";
 import * as People from "../styles/pages/studio/people/index";
 
 import * as Image from "../styles/core/elements/images/images";
-import {
-  FadeUpChildren,
-  FadeUpContainer,
-} from "../../animations/variants/onScrollIn/fadeUp";
+import { FadeUpChildren, FadeUpContainer } from "../onScrollIn/fadeUp";
 import { Contact_Component } from "../components/contact";
 import { Charity_Component } from "../components/charity";
 

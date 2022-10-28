@@ -6,10 +6,7 @@ import Flexed from "../styles/core/layouts/flexed";
 import * as Section from "../styles/core/blocks/section/index";
 
 import * as Charity from "../styles/core/blocks/charity/index";
-import {
-  FadeUpChildren,
-  FadeUpContainer,
-} from "../../animations/variants/onScrollIn/fadeUp";
+import { FadeUpChildren, FadeUpContainer } from "../onScrollIn/fadeUp";
 
 export default function Project() {
   return (

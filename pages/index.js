@@ -5,13 +5,8 @@ import Flexed from "../styles/core/layouts/flexed";
 import Card from "../styles/pages/home/card/index";
 import * as Section from "../styles/core/blocks/section/index";
 import * as News from "../styles/pages/home/news/index";
-import * as Charity from "../styles/core/blocks/charity/index";
-import {
-  FadeUpChildren,
-  FadeUpContainer,
-} from "../../animations/variants/onScrollIn/fadeUp";
-import { Charity_Component } from "../components/charity";
-import { Contact_Component } from "../components/contact";
+
+import { FadeUpChildren, FadeUpContainer } from "../onScrollIn/fadeUp";
 
 export default function Index() {
   return (
